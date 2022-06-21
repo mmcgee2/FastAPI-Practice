@@ -116,14 +116,11 @@ tenacity==8.0.1
 tensorboard==2.8.0
 tensorboard-data-server==0.6.1
 tensorboard-plugin-wit==1.8.1
-tensorflow==2.8.0
-tensorflow-io-gcs-filesystem==0.25.0
 termcolor==1.1.0
 tf-estimator-nightly==2.8.0.dev2021122109
 threadpoolctl==3.1.0
 tldextract==3.2.1
 tomli==2.0.1
-torch==1.11.0
 tornado==6.1
 trio==0.20.0
 trio-websocket==0.9.2
@@ -139,5 +136,4 @@ websockets==10.3
 Werkzeug==2.1.2
 wrapt==1.14.1
 wsproto==1.1.0
-xgboost==1.6.0
 zope.interface==5.4.0
