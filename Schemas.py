@@ -5,7 +5,7 @@ from pydantic import BaseModel
 
 class UserBase(BaseModel):
     au_fname: str
-    phone: str | None = None
+    phone: str
     age: int
 
 
