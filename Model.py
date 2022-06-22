@@ -9,7 +9,7 @@ class User(Base):
 
     au_id = Column(String(11), primary_key=True, index=True)
     au_fname = Column(String(20), unique=True, index=True)
-    phone = Column(String)
+    phone = Column(String(12))
     age = Column(Integer)
 
 
