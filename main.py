@@ -32,7 +32,7 @@ def read_users(skip: int, limit: int, db: Session = Depends(get_db)):
 
 @app.get("/users/{user_id}", response_model=Schemas.author)
 def read_user(user_id: str, db: Session = Depends(get_db)):
-    db_user = Crud.get_user(db, user_id="first"))
+    db_user = Crud.get_user(db, user_id="first")
     if db_user is None:
         raise HTTPException(status_code=404, detail="User Not Found")
     return db_user
