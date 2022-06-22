@@ -5,8 +5,6 @@ from pydantic import BaseModel
 
 class UserBase(BaseModel):
     au_fname: str
-    phone: str
-    age: int
 
 
 class UserCreate(UserBase):
