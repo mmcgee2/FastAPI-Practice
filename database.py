@@ -3,7 +3,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 import os
 
-DATABASE_URL = "mysql://g7vn3rd05puohm91:odl20txpni2bpqo0@ebh2y8tqym512wqs.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/nnrl2r877obkotl6"
+DATABASE_URL = "mysql://ktym57cel7olx1jj:j6einfqnvzk89mpv@ebh2y8tqym512wqs.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/naahstp8zt2ps63g"
 
 
 db_engine = create_engine(DATABASE_URL, pool_pre_ping = True)
