@@ -1,11 +1,8 @@
 aiofiles==0.8.0
 fastapi==0.58.1
 gunicorn
-Jinja2==3.1.2
-mysql-connector-python==8.0.29
 mysqlclient==2.1.0
 pydantic==1.9.0
-PyMySQL==1.0.2
 python-multipart==0.0.4
 SQLAlchemy==1.4.36
 sqlparse==0.4.2
@@ -14,4 +11,3 @@ urllib3==1.26.9
 uvicorn==0.17.6
 w3lib==1.22.0
 Werkzeug==2.1.2
-
