@@ -8,7 +8,11 @@ Model.Base.metadata.create_all(bind=db_engine)
 
 app = FastAPI()
 
-origins = ["https://desolate-sea-33600.herokuapp.com/users/first"]
+origins = [
+    "https://desolate-sea-33600.herokuapp.com/users/first",
+    "https://desolate-sea-33600.herokuapp.com/",
+    "https://desolate-sea-33600.herokuapp.com/users",
+]
 
 app.add_middleware(
     CORSMiddleware,
