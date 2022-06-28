@@ -7,6 +7,15 @@ Model.Base.metadata.create_all(bind=db_engine)
 
 app = FastAPI()
 
+origins = ["https://desolate-sea-33600.herokuapp.com/users/first"]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 def get_db():
     db = local_session()
