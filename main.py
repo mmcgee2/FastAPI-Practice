@@ -12,11 +12,12 @@ origins = [
     "https://desolate-sea-33600.herokuapp.com/users/first",
     "https://desolate-sea-33600.herokuapp.com/",
     "https://desolate-sea-33600.herokuapp.com/users",
+    "https://frontpagereact.pages.dev/"
 ]
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
